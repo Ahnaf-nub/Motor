@@ -6,7 +6,7 @@ motor_pins = [2, 6, 7, 4, 5, 3]
 motorAdir = False
 motorBdir = True
 # Initialize MotorDriver instance
-motor_driver = MotorDriver(motor_pins)
+motor_driver = Motor(motor_pins)
 
 # Example usage in the main loop
 while True:
