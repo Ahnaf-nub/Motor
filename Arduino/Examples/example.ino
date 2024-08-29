@@ -3,7 +3,14 @@
 bool motorAdir = true;
 bool motorBdir = true;
 
-int motor_pins[6] = {2, 6, 7, 4, 5, 3};
+#define pwma 2
+#define pwmb 4
+#define ina1 6
+#define ina2 7
+#define inb1 5
+#define inb2 3
+
+int motor_pins[6] = {pwma, ina1, ina2, pwmb, inb1, inb2};
 Motor motor(motor_pins);
 
 void setup() {
