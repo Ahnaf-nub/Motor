@@ -1,8 +1,15 @@
 from motor import Motor
 
 # Define motor pins
-motor_pins = [2, 6, 7, 4, 5, 3]
-# Change state to change the rotattion of motor
+pwma = 2
+pwmb = 4
+ina1 = 6
+ina2 = 7
+inb1 = 5
+inb2 = 3
+motor_pins = [pwma, ina1, ina2, pwmb, inb1, inb2]
+
+# Change state to change the rotation of motor
 motorAdir = True
 motorBdir = True
 # Initialize MotorDriver instance
