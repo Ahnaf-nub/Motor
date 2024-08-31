@@ -1,7 +1,7 @@
 # MotorDriver Library for Arduino and Micropython
 ## Overview
 The MotorDriver library provides an easy-to-use interface for controlling motors with a motor driver. The library supports both Arduino and MicroPython, allowing you to control motor speed and direction.
-
+![image](https://github.com/user-attachments/assets/174be3e2-ebb2-4743-9046-12e2f5758b1b)
 ## Features
 **Control motor and motor speed using PWM.**
 **Set motor direction (forward/reverse).**
